@@ -1,0 +1,6 @@
+# folders to ignore
+.idea/
+
+# file patterns to ignore
+*.pyc
+*.pyo
