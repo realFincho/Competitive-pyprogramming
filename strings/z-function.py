@@ -129,10 +129,10 @@ def good_substrings_count(s, t):
 
 
 def z_function_gray_string(j):
-    '''
+    """
     :param j: position of element in gray string
     :return: z-function value in j-pos
-    '''
+    """
     if j & 1 or j == 0:
         return 0
     c = 0
